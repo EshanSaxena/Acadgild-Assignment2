@@ -1,0 +1,70 @@
+<div>
+
+CSS
+->Inline(high priority)
+->Style Tag: class(common properties)., id(unique properties)#
+->Stylesheet
+<link href="style.css" rel="stylesheet"/>
+
+
+Which of these CSS styles has high preference??
+->Inline
+
+
+<section>  HTML5 tag
+<a href="#home"></a> anchor tag
+
+
+->Interlinking of pages
+<a href="about.html"></a>
+
+
+->Github
+https://github.com/Aakashdeveloper/AcadGlid_May
+
+git init -> Initialize git
+git add.
+git commit -m "first commit"
+git remote add origin https://github.com/(Repository name)
+git push -u origin master
+
+git add.
+git commit -m "first commit"
+git push -u origin master
+
+
+-><b>,<u>,<i>
+
+->Descriptive List
+<dl>
+	<dt></dt>	->Data term
+	<dd></dd>	->
+</dl>
+
+->Table
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Eshan</td>
+		</tr>
+	</tbody>
+</table>
+
+->Using tagname directly(disadvantages: will be linked to every tagname)
+
+CSS Comments
+/* Comment here  */
+
+->Table borders
+table,thead,td,tr{
+	border:
+}
+
+->Assignment2
+ ->Section
+ ->Multiple Pages
