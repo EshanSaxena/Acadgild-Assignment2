@@ -68,3 +68,7 @@ table,thead,td,tr{
 ->Assignment2
  ->Section
  ->Multiple Pages
+
+->Home(home.html)
+->Contact Us(contact-us.html)
+->Qualification(education.html)

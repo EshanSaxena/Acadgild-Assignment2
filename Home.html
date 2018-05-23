@@ -1,12 +1,13 @@
-<!Doctype html>
+<!DOCTYPE html>
 
 <head>
     <title> Home </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
     <!-- Header-->
-    <div style="background-color: grey; height: 550px; width:960px; margin: auto; position: relative;">
+    <div class="header">
         <img style="width: 960px; height: 350px; position: relative; top: 0px; left: 0px;" src="WebDeveloper.jpg" alt="Cover Photo">
         <img style="height: 200px; position: absolute; bottom: 115px; left: 39px;" src="Eshan.jpeg.jpg " alt="Profile Photo">
         <div style="width: 300px; height:100px; background-color: white; position: absolute; bottom: 20px;">
@@ -25,7 +26,9 @@
 
     <!--Contents-->
 
-    <div style="background-color: white; height: 300px; width:960px; margin: auto; position: relative;">
+    <div class="contents">
+        <a href="education.html">Qualification</a>
+        <a href="contact-us.html">Contact us</a>
         <hr>
         <p>I am a Web enthusiast.I have a keen interest in learning new technologies to keep up with the current market trends.</p>
         <p>I have completed my B.tech from BBD University. I am currently associated with
@@ -44,18 +47,26 @@
     </div>
 
     <!--Footer-->
-    <div style="background-color: grey; height: 200px; width:960px; margin: auto; position: relative;">
-        <span>
+    <div class="footer">
+        <div style="background-color: yellow; width: 300px; height:50px; float: left;">
+            <span>
             <b>You can get in touch with me on</b>
-        </span>
-        <br>
-        <span>Email:eshan.eshan.saxena0@gmail.com</span>
-        <br>
-        <span>Mobile:9598911071</span>
-        <br>
-        <span>
-            <a href="https://www.linkedin.com/in/eshan-saxena-624a4780/ ">LinkedIn</a>
-        </span>
+            </span>
+            <br>
+            <span>Email:eshan.eshan.saxena0@gmail.com</span>
+            <br>
+            <span>Mobile:9598911071</span>
+            <br>
+        </div>
+
+        <div style="background-color: black; width: 300px; height:50px; float:right;">
+            <a href=" https://www.linkedin.com/in/eshan-saxena-624a4780/" target="_blank">
+                <img style="height: 20px; position: 20px; bottom: 0px; left: 0px;" src="LinkedInLogo.png" alt="LinkedIn Logo">
+            </a>
+            <a href="https://www.facebook.com/eshan.saxena" target="_blank">
+                <img style="width: 20px; height: 20px; position: relative; top: 0px; left: 0px;" src="FacebookLogo.png" alt="Facebook Logo">
+            </a>
+        </div>
     </div>
 
 </body>
