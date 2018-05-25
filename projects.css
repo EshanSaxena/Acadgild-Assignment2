@@ -1,0 +1,26 @@
+/* CSS for contents */
+
+.projectContents {
+    background-color: white;
+    height: 900px;
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+
+#project{
+    height: 200px;
+    width:100%;
+    background: violet
+}
+#tools{
+    height: 200px;
+    width:100%;
+    background: green
+}
+#language{
+    height: 200px;
+    width:100%;
+    background: yellow
+}
