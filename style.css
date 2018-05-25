@@ -2,7 +2,7 @@
 
 .header {
     background-color: grey;
-    height: 550px;
+    height: 506px;
     width: 960px;
     margin: auto;
     position: relative;
@@ -24,7 +24,7 @@
 
 .footer {
     background-color: grey;
-    height: 100px;
+    height: 40px;
     width: 960px;
     margin: auto;
     position: relative;
